@@ -1,0 +1,527 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{cook1906factors}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fdaa8e00dab564d8c3adc18e2ebae4fe}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={O.\bibnamedelimi F.},
+           giveni={O\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \strng{fullhash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \strng{bibnamehash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \strng{authorbibnamehash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \strng{authornamehash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \strng{authorfullhash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{587}
+      \field{title}{Factors of Species-Formation}
+      \field{volume}{23}
+      \field{year}{1906}
+      \field{pages}{506\bibrangedash 507}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1126/science.23.587.506
+      \endverb
+    \endentry
+    \entry{darwin1859origin}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0e4f38206db228a7b870a49f6f52db2}{%
+           family={Darwin},
+           familyi={D\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {John Murray}%
+      }
+      \strng{namehash}{d0e4f38206db228a7b870a49f6f52db2}
+      \strng{fullhash}{d0e4f38206db228a7b870a49f6f52db2}
+      \strng{bibnamehash}{d0e4f38206db228a7b870a49f6f52db2}
+      \strng{authorbibnamehash}{d0e4f38206db228a7b870a49f6f52db2}
+      \strng{authornamehash}{d0e4f38206db228a7b870a49f6f52db2}
+      \strng{authorfullhash}{d0e4f38206db228a7b870a49f6f52db2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life}
+      \field{year}{1859}
+    \endentry
+    \entry{dobzhansky1951genetics}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b2f2d448fcd03ce846435c3c416781e}{%
+           family={Dobzhansky},
+           familyi={D\bibinitperiod},
+           given={Theodosius},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Columbia University Press}%
+      }
+      \strng{namehash}{9b2f2d448fcd03ce846435c3c416781e}
+      \strng{fullhash}{9b2f2d448fcd03ce846435c3c416781e}
+      \strng{bibnamehash}{9b2f2d448fcd03ce846435c3c416781e}
+      \strng{authorbibnamehash}{9b2f2d448fcd03ce846435c3c416781e}
+      \strng{authornamehash}{9b2f2d448fcd03ce846435c3c416781e}
+      \strng{authorfullhash}{9b2f2d448fcd03ce846435c3c416781e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{note}{Third revised edition}
+      \field{title}{Genetics and the Origin of Species}
+      \field{year}{1951}
+    \endentry
+    \entry{felsenstein1981evolutionary}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a9a7aeb8d3c34e3da316b87101984cda}{%
+           family={Felsenstein},
+           familyi={F\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \strng{fullhash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \strng{bibnamehash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \strng{authorbibnamehash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \strng{authornamehash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \strng{authorfullhash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Evolution}
+      \field{number}{6}
+      \field{title}{Evolutionary trees from DNA sequences: A maximum likelihood approach}
+      \field{volume}{17}
+      \field{year}{1981}
+      \field{pages}{368\bibrangedash 376}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/BF01734359
+      \endverb
+    \endentry
+    \entry{maynardsmith1966sympatric}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b197e8a08a812eadf773a3eb509b4616}{%
+           family={Maynard\bibnamedelima Smith},
+           familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{b197e8a08a812eadf773a3eb509b4616}
+      \strng{fullhash}{b197e8a08a812eadf773a3eb509b4616}
+      \strng{bibnamehash}{b197e8a08a812eadf773a3eb509b4616}
+      \strng{authorbibnamehash}{b197e8a08a812eadf773a3eb509b4616}
+      \strng{authornamehash}{b197e8a08a812eadf773a3eb509b4616}
+      \strng{authorfullhash}{b197e8a08a812eadf773a3eb509b4616}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sympatric Speciation}
+      \field{year}{1966}
+    \endentry
+    \entry{mayr1942systematics}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cac50db2a50745fbffff26230282b557}{%
+           family={Mayr},
+           familyi={M\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Columbia University Press}%
+      }
+      \strng{namehash}{cac50db2a50745fbffff26230282b557}
+      \strng{fullhash}{cac50db2a50745fbffff26230282b557}
+      \strng{bibnamehash}{cac50db2a50745fbffff26230282b557}
+      \strng{authorbibnamehash}{cac50db2a50745fbffff26230282b557}
+      \strng{authornamehash}{cac50db2a50745fbffff26230282b557}
+      \strng{authorfullhash}{cac50db2a50745fbffff26230282b557}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Systematics and the Origin of Species}
+      \field{year}{1942}
+    \endentry
+    \entry{Penalbaetal2024_HybridizationReview}{article}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=a9764097ff8e2779f56bfc02d0758e13}{%
+           family={Peñalba},
+           familyi={P\bibinitperiod},
+           given={Joshua\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d37731f1de653144a22c8b5ffd133e54}{%
+           family={Runemark},
+           familyi={R\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11a626f4a94764a17fde11cad18ae507}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={Joana\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f30425a3309173d29f9e1c5bf5ffb526}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Pooja},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3259afec5063b0ade4db11632db36501}{%
+           family={Wogan},
+           familyi={W\bibinitperiod},
+           given={Guinevere\bibnamedelimb O.\bibnamedelimi U.},
+           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56397d1fe047ceff157e8bd98248bb1f}{%
+           family={Sánchez-Guillén},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Rosa},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b302c9f6debce736391fb4ac872d7ff}{%
+           family={Mallet},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ede631d9eed7b9e264c3d234423e1f98}{%
+           family={Rometsch},
+           familyi={R\bibinitperiod},
+           given={Sina\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c66427f47f1785163caa8e8c35e17b18}{%
+           family={Menon},
+           familyi={M\bibinitperiod},
+           given={Mitra},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80b1719708477d2cb174bbfbea96ab2e}{%
+           family={Seehausen},
+           familyi={S\bibinitperiod},
+           given={Ole},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad0fd1c95e74d82a32ebf30295786d7b}{%
+           family={Kulmuni},
+           familyi={K\bibinitperiod},
+           given={Jonna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e939de16026e7dbed1be610fe5b51037}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={Ricardo\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5993e77f53379b75ad0948e60e1a4589}
+      \strng{fullhash}{d799fdaae7fe2d9591710f1080fe2277}
+      \strng{bibnamehash}{5993e77f53379b75ad0948e60e1a4589}
+      \strng{authorbibnamehash}{5993e77f53379b75ad0948e60e1a4589}
+      \strng{authornamehash}{5993e77f53379b75ad0948e60e1a4589}
+      \strng{authorfullhash}{d799fdaae7fe2d9591710f1080fe2277}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cold Spring Harbor Perspectives in Biology}
+      \field{note}{Advanced Online Publication}
+      \field{title}{The Role of Hybridization in Species Formation and Persistence}
+      \field{volume}{a041445}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1101/cshperspect.a041445
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1101/cshperspect.a041445
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1101/cshperspect.a041445
+      \endverb
+    \endentry
+    \entry{schumer2018natural}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=a4365c45816ca26eb63062b697496962}{%
+           family={Schumer},
+           familyi={S\bibinitperiod},
+           given={Molly},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a99d2c52538fde774b0d76913a67fe7f}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Chenling},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89bcceb6f031f4c10e951dc744e6e6b8}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={Daniel\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c548ae4b83db8922fd5d754c2838d3f8}{%
+           family={Durvasula},
+           familyi={D\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b789499611b800a89fac0dc690bd30b8}{%
+           family={Skov},
+           familyi={S\bibinitperiod},
+           given={Laurits},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78a539c7dd7a1e55b31a39ad9b09e5af}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ec1917b6fbd9451696d2351691fbcc8}{%
+           family={Blazier},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42444e8073f744a3db61a499f44443f9}{%
+           family={Sankararaman},
+           familyi={S\bibinitperiod},
+           given={Sriram},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e23cb8c5e4ded07ef8b19fb13d13b75f}{%
+           family={Andolfatto},
+           familyi={A\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=319a4d43a1137c098cbd698a1105b856}{%
+           family={Rosenthal},
+           familyi={R\bibinitperiod},
+           given={Gil\bibnamedelima G.},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab6ede380dfdf54bef473b2c6fab16d1}{%
+           family={Przeworski},
+           familyi={P\bibinitperiod},
+           given={Molly},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d283ffcbbd98d54f33e04abb1b36b27f}
+      \strng{fullhash}{ef25401d32f7bf61e6311aed2895909e}
+      \strng{bibnamehash}{d283ffcbbd98d54f33e04abb1b36b27f}
+      \strng{authorbibnamehash}{d283ffcbbd98d54f33e04abb1b36b27f}
+      \strng{authornamehash}{d283ffcbbd98d54f33e04abb1b36b27f}
+      \strng{authorfullhash}{ef25401d32f7bf61e6311aed2895909e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6389}
+      \field{title}{Natural selection interacts with recombination to shape the evolution of hybrid genomes}
+      \field{volume}{360}
+      \field{year}{2018}
+      \field{pages}{656\bibrangedash 660}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.aar3684
+      \endverb
+    \endentry
+    \entry{vilaca-2023}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=b5e66be149aa2152f2b45d1e416e97fc}{%
+           family={Vilaça},
+           familyi={V\bibinitperiod},
+           given={Sibelle\bibnamedelimb T},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b03b03323c31fee091491cd71d8d9a6e}{%
+           family={Donaldson},
+           familyi={D\bibinitperiod},
+           given={Michael\bibnamedelimb E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7abf9e828a9dcb6a3be7ca3798da00ce}{%
+           family={Benazzo},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3c588dc5d44d10519dc5824c0690dd3}{%
+           family={Wheeldon},
+           familyi={W\bibinitperiod},
+           given={Tyler\bibnamedelimb J},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b23044575c884a235e9415d8efeecbee}{%
+           family={Vizzari},
+           familyi={V\bibinitperiod},
+           given={Maria\bibnamedelimb Teresa},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55da76102a436e80d8478c9ef1d0013f}{%
+           family={Bertorelle},
+           familyi={B\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4009c7a99875108d1621c74013506e81}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={Brent\bibnamedelimb R},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=221f183d1f8b857c2c9ff10e8d685ff7}{%
+           family={Kyle},
+           familyi={K\bibinitperiod},
+           given={Christopher\bibnamedelimb J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{860e992335e392d6636d9891a59c57d7}
+      \strng{fullhash}{cc5712abecb94cd33e2cc525dbd1dfcb}
+      \strng{bibnamehash}{cc5712abecb94cd33e2cc525dbd1dfcb}
+      \strng{authorbibnamehash}{cc5712abecb94cd33e2cc525dbd1dfcb}
+      \strng{authornamehash}{860e992335e392d6636d9891a59c57d7}
+      \strng{authorfullhash}{cc5712abecb94cd33e2cc525dbd1dfcb}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Tracing Eastern Wolf Origins From Whole-Genome Data in Context of Extensive Hybridization}
+      \field{volume}{40}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1093/molbev/msad055
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/molbev/msad055
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/molbev/msad055
+      \endverb
+    \endentry
+    \entry{watson1953molecular}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f5972932c20f9c58b7fc47abc04987f0}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=824b40d5be647c38492a42518ca34fed}{%
+           family={Crick},
+           familyi={C\bibinitperiod},
+           given={F.\bibnamedelimi H.\bibnamedelimi C.},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \strng{fullhash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \strng{bibnamehash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \strng{authorbibnamehash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \strng{authornamehash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \strng{authorfullhash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{4356}
+      \field{title}{Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid}
+      \field{volume}{171}
+      \field{year}{1953}
+      \field{pages}{737\bibrangedash 738}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/171737a0
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

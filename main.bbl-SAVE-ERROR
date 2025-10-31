@@ -1,0 +1,268 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{cook1906factors}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fdaa8e00dab564d8c3adc18e2ebae4fe}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={O.\bibnamedelimi F.},
+           giveni={O\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \strng{fullhash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \strng{bibnamehash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \strng{authorbibnamehash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \strng{authornamehash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \strng{authorfullhash}{fdaa8e00dab564d8c3adc18e2ebae4fe}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{587}
+      \field{title}{Factors of Species-Formation}
+      \field{volume}{23}
+      \field{year}{1906}
+      \field{pages}{506\bibrangedash 507}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1126/science.23.587.506
+      \endverb
+    \endentry
+    \entry{darwin1859origin}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0e4f38206db228a7b870a49f6f52db2}{%
+           family={Darwin},
+           familyi={D\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {John Murray}%
+      }
+      \strng{namehash}{d0e4f38206db228a7b870a49f6f52db2}
+      \strng{fullhash}{d0e4f38206db228a7b870a49f6f52db2}
+      \strng{bibnamehash}{d0e4f38206db228a7b870a49f6f52db2}
+      \strng{authorbibnamehash}{d0e4f38206db228a7b870a49f6f52db2}
+      \strng{authornamehash}{d0e4f38206db228a7b870a49f6f52db2}
+      \strng{authorfullhash}{d0e4f38206db228a7b870a49f6f52db2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life}
+      \field{year}{1859}
+    \endentry
+    \entry{dobzhansky1951genetics}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b2f2d448fcd03ce846435c3c416781e}{%
+           family={Dobzhansky},
+           familyi={D\bibinitperiod},
+           given={Theodosius},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Columbia University Press}%
+      }
+      \strng{namehash}{9b2f2d448fcd03ce846435c3c416781e}
+      \strng{fullhash}{9b2f2d448fcd03ce846435c3c416781e}
+      \strng{bibnamehash}{9b2f2d448fcd03ce846435c3c416781e}
+      \strng{authorbibnamehash}{9b2f2d448fcd03ce846435c3c416781e}
+      \strng{authornamehash}{9b2f2d448fcd03ce846435c3c416781e}
+      \strng{authorfullhash}{9b2f2d448fcd03ce846435c3c416781e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{note}{Third revised edition}
+      \field{title}{Genetics and the Origin of Species}
+      \field{year}{1951}
+    \endentry
+    \entry{mayr1942systematics}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cac50db2a50745fbffff26230282b557}{%
+           family={Mayr},
+           familyi={M\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Columbia University Press}%
+      }
+      \strng{namehash}{cac50db2a50745fbffff26230282b557}
+      \strng{fullhash}{cac50db2a50745fbffff26230282b557}
+      \strng{bibnamehash}{cac50db2a50745fbffff26230282b557}
+      \strng{authorbibnamehash}{cac50db2a50745fbffff26230282b557}
+      \strng{authornamehash}{cac50db2a50745fbffff26230282b557}
+      \strng{authorfullhash}{cac50db2a50745fbffff26230282b557}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Systematics and the Origin of Species}
+      \field{year}{1942}
+    \endentry
+    \entry{vilaca-2023}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=b5e66be149aa2152f2b45d1e416e97fc}{%
+           family={Vilaça},
+           familyi={V\bibinitperiod},
+           given={Sibelle\bibnamedelimb T},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b03b03323c31fee091491cd71d8d9a6e}{%
+           family={Donaldson},
+           familyi={D\bibinitperiod},
+           given={Michael\bibnamedelimb E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7abf9e828a9dcb6a3be7ca3798da00ce}{%
+           family={Benazzo},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3c588dc5d44d10519dc5824c0690dd3}{%
+           family={Wheeldon},
+           familyi={W\bibinitperiod},
+           given={Tyler\bibnamedelimb J},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b23044575c884a235e9415d8efeecbee}{%
+           family={Vizzari},
+           familyi={V\bibinitperiod},
+           given={Maria\bibnamedelimb Teresa},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55da76102a436e80d8478c9ef1d0013f}{%
+           family={Bertorelle},
+           familyi={B\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4009c7a99875108d1621c74013506e81}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={Brent\bibnamedelimb R},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=221f183d1f8b857c2c9ff10e8d685ff7}{%
+           family={Kyle},
+           familyi={K\bibinitperiod},
+           given={Christopher\bibnamedelimb J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{860e992335e392d6636d9891a59c57d7}
+      \strng{fullhash}{cc5712abecb94cd33e2cc525dbd1dfcb}
+      \strng{bibnamehash}{cc5712abecb94cd33e2cc525dbd1dfcb}
+      \strng{authorbibnamehash}{cc5712abecb94cd33e2cc525dbd1dfcb}
+      \strng{authornamehash}{860e992335e392d6636d9891a59c57d7}
+      \strng{authorfullhash}{cc5712abecb94cd33e2cc525dbd1dfcb}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Tracing Eastern Wolf Origins From Whole-Genome Data in Context of Extensive Hybridization}
+      \field{volume}{40}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1093/molbev/msad055
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/molbev/msad055
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/molbev/msad055
+      \endverb
+    \endentry
+    \entry{watson1953molecular}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f5972932c20f9c58b7fc47abc04987f0}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=824b40d5be647c38492a42518ca34fed}{%
+           family={Crick},
+           familyi={C\bibinitperiod},
+           given={F.\bibnamedelimi H.\bibnamedelimi C.},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \strng{fullhash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \strng{bibnamehash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \strng{authorbibnamehash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \strng{authornamehash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \strng{authorfullhash}{42ad3cb88232cc5b048e17be3ae4db9b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{4356}
+      \field{title}{Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid}
+      \field{volume}{171}
+      \field{year}{1953}
+      \field{pages}{737\bibrangedash 738}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/171737a0
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
