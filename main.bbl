@@ -208,6 +208,71 @@
       \field{title}{Systematics and the Origin of Species}
       \field{year}{1942}
     \endentry
+    \entry{souris-orth-2002}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=4cf4d3c01584b1bbf16c7dcad18f32ac}{%
+           family={Orth},
+           familyi={O\bibinitperiod},
+           given={Annie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30019f4a75bbf78e9d1e0fffa366ecf3}{%
+           family={Belkhir},
+           familyi={B\bibinitperiod},
+           given={Khalid},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e17ef95e3c31de470c2922b02db3bc09}{%
+           family={Britton-Davidian},
+           familyi={B\bibinithyphendelim D\bibinitperiod},
+           given={Janice},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80465cc88af2cee2a8d2d08d86c040e1}{%
+           family={Boursot},
+           familyi={B\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d363d2172430f91c5afaa21b764ecf9}{%
+           family={Benazzou},
+           familyi={B\bibinitperiod},
+           given={Touria},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=162633490a18819063139d5df924bccb}{%
+           family={Bonhomme},
+           familyi={B\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c88b4e96bf0485e1e30c8cea28857595}
+      \strng{fullhash}{fc76d1b9dbd764e8aded736cebb36be4}
+      \strng{bibnamehash}{fc76d1b9dbd764e8aded736cebb36be4}
+      \strng{authorbibnamehash}{fc76d1b9dbd764e8aded736cebb36be4}
+      \strng{authornamehash}{c88b4e96bf0485e1e30c8cea28857595}
+      \strng{authorfullhash}{fc76d1b9dbd764e8aded736cebb36be4}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Comptes Rendus Biologies}
+      \field{number}{2}
+      \field{title}{Hybridation naturelle entre deux espèces sympatriques de souris Mus musculus domesticus L. et Mus spretus Lataste}
+      \field{volume}{325}
+      \field{year}{2002}
+      \field{pages}{77\bibrangedash 87}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/S1631-0691(02)01413-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/S1631-0691(02)01413-0
+      \endverb
+    \endentry
     \entry{Penalbaetal2024_HybridizationReview}{article}{}
       \name{author}{12}{}{%
         {{un=0,uniquepart=base,hash=a9764097ff8e2779f56bfc02d0758e13}{%
