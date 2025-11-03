@@ -1,33 +1,95 @@
 \documentclass[12pt,a4paper]{article}
-\linespread{1.2}
+
+% ============================
+% ENCODAGE & LANGUE
+% ============================
+\usepackage{fontspec}             % gestion moderne des polices (XeLaTeX obligatoire)
+\usepackage[french]{babel}
+\babelfont{rm}{TeX Gyre Heros}    % équivalent libre d’Arial (avec petites capitales)
+\babelfont{sf}{TeX Gyre Heros}
+\babelfont{tt}{TeX Gyre Cursor}
+
+% ============================
+% MISE EN PAGE
+% ============================
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing                   % interligne 1,5
 \setlength{\parskip}{0.5em}
 \setlength{\parindent}{1em}
+\usepackage{booktabs, multirow}
+\usepackage{enumitem}
+\setlist{noitemsep}
 
-\usepackage[french]{babel}
-\usepackage{csquotes} % avant biblatex
-\usepackage[backend=biber,style=authoryear,language=french,maxbibnames=10,natbib=true]{biblatex}
+% ============================
+% MATH, COULEURS, SYMBOLES
+% ============================
+\usepackage{amsmath, amssymb}
+\usepackage{xcolor}
+
+% ============================
+% IMAGES & TABLEAUX
+% ============================
+\usepackage{graphicx}
+\usepackage{caption}
+\captionsetup{labelfont=bf}
+
+% ============================
+% LIENS HYPERTEXTES
+% ============================
+\usepackage[hidelinks,unicode]{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  citecolor=teal,
+  pdfauthor={Florent Le Quellec},
+  pdftitle={Revue MG2E – Admixture & Spéciation},
+  pdfsubject={Master BI/BEE – MG2E},
+  pdfkeywords={spéciation, admixture, hybridation, génomique, bioinformatique}
+}
+
+% ============================
+% CITATIONS & BIBLIOGRAPHIE
+% ============================
+\usepackage{csquotes} % doit être avant biblatex
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  citestyle=authoryear-comp,
+  sorting=nyt,
+  maxcitenames=2,
+  maxbibnames=99,
+  giveninits=true,
+  uniquename=false,
+  url=false,
+  doi=true,
+  eprint=false,
+  language=french
+]{biblatex}
+
+\DefineBibliographyStrings{french}{
+  andothers = {et al.}
+}
+
 \addbibresource{references.bib}
 
-\usepackage{graphicx, caption}
-\usepackage{url}
-\usepackage{amsmath, amssymb}
-\usepackage{geometry}
-\usepackage{setspace}
-\usepackage{xcolor}
-\usepackage[hidelinks,unicode]{hyperref}
-\usepackage{enumitem, booktabs, multirow, lipsum}
 
-\geometry{margin=2.5cm}
+% ============================
+% DIVERS / AJUSTEMENTS
+% ============================
+\frenchspacing   % espace uniforme après les points
+\sloppy          % évite les dépassements de marges
 \setstretch{1.25}
-
-\usepackage{fontspec}
-\setmainfont{Arial}
-
 
 % ====== Informations de la page de titre ======
 \title{\textbf{Admixture et spéciation : perspectives génomiques sur le rôle du flux de gènes dans la diversification des espèces}}
 \author{Florent LE QUELLEC}
 \date{}
+
+% Fixe les étiquettes manquantes pour le français
+\setlocalecaption{french}{abstract}{Résumé}
+\setlocalecaption{french}{contents}{Table des matières}
 
 \begin{document}
 \maketitle
@@ -129,9 +191,34 @@ Par exemple, chez certaines espèces migratrices qui se reproduisent dans des zo
 D’autre part, les flux génétiques peuvent être sources d’innovation génétique, en favorisant l’émergence de nouvelles combinaisons adaptatives et l’accroissement de la diversité génétique au sein des espèces.
 Cet effet, inverse de l’homogénéisation, agit alors comme un moteur de spéciation : les introgressions génétiques peuvent différencier suffisamment le génome des hybrides de celui des espèces parentales pour conduire à la formation de nouvelles lignées.
 
-\subsection{Apports récents de la génomique}
+\subsection{Apports récents de la génomique et de la bio-informatique}
 % Comment les approches génomiques permettent d’estimer la divergence et le flux de gènes.
 % Exemples de méthodes : D-statistics, MSMC2, ABC-RF, etc.
+
+Les progrès de la génomique et de la bio-informatique ont profondément renouvelé notre compréhension des processus de spéciation et d’admixture.
+Les approches modernes ne se limitent plus à la comparaison de quelques marqueurs moléculaires, mais exploitent désormais des génomes complets pour estimer à la fois la divergence évolutive et le flux de gènes entre populations.
+Ces analyses permettent d’identifier les régions du génome impliquées dans l’isolement reproductif, de détecter les signatures d’introgression et de quantifier l’intensité du flux génétique au cours du temps \parencite{seehausen2014genomics}.
+
+L’un des outils les plus utilisés pour mesurer l’admixture est la statistique D, ou test ABBA–BABA, initialement développé pour détecter l’introgression entre humains modernes et Néandertaliens.
+Ce test compare les fréquences d’allèles partagés entre quatre taxons pour inférer la présence d’un flux de gènes non explicable par la phylogénie seule.
+Une valeur significative de D indique une violation de la bifurcation stricte, et donc un événement d’admixture interspécifique \parencite{green2010neandertal, durand2011testing}.
+Des variantes récentes (f4-ratio, f-branch) permettent d’estimer la proportion d’ascendance introgressée dans les génomes.
+
+D’autres approches, comme les modèles de coalescence ou les méthodes basées sur la probabilité des histoires démographiques, permettent d’estimer la chronologie et l’intensité du flux de gènes.
+Parmi elles, MSMC2 (\textit{Multiple Sequentially Markovian Coalescent}) reconstruit la variation du taux de coalescence au cours du temps à partir de génomes entiers, offrant une estimation fine du moment où les lignées ont cessé d’échanger des gènes \parencite{schiffels2014msmc}.
+Cette approche a notamment permis d’identifier des épisodes anciens d’admixture entre espèces humaines et chez de nombreux vertébrés.
+
+Les méthodes d’inférence bayésienne et de simulation sont également devenues essentielles pour tester des scénarios de spéciation.
+Les approches dites Approximate Bayesian Computation (ABC) permettent de comparer des modèles démographiques en simulant des jeux de données sous différentes hypothèses d’isolement ou de flux de gènes.
+L’intégration récente de l’apprentissage automatique, via des techniques comme ABC-Random Forest (ABC-RF), améliore la puissance et la robustesse de ces analyses \parencite{pudlo2016abc, raynal2019abc}.
+
+Ces outils, couplés à des approches de cartographie du génome et de détection de sélection (par exemple les statistiques $F_{ST}$, $d_{XY}$, ou les analyses de déséquilibre de liaison), permettent aujourd’hui de visualiser la spéciation comme un mosaïque génomique.
+Certaines régions du génome montrent une forte différenciation (souvent liées à des barrières reproductives) alors que d’autres restent perméables au flux de gènes.
+Cette vision, qualifiée de "continuum de spéciation", révèle la complexité du processus évolutif, combinant divergence, hybridation et sélection naturelle \parencite{roux2016continuum, kulmuni2020towards}.
+
+En résumé, la génomique et la bio-informatique fournissent aujourd’hui les outils indispensables pour quantifier et visualiser le flux de gènes au cours de la spéciation.
+Elles permettent de dépasser les modèles conceptuels historiques en offrant une approche intégrée reliant structure du génome, histoire démographique et forces évolutives responsables de la diversification du vivant.
+
 
 % ==========================
 \section{Étude de cas : l’admixture chez les canidés nord-américains}
