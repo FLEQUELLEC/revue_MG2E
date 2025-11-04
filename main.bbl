@@ -159,6 +159,78 @@
       \verb 10.1093/molbev/msr048
       \endverb
     \endentry
+    \entry{feldman2001origin}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{hash=3814ff03327a094a5ddd09b2826c9abc}{%
+           family={Feldman},
+           familyi={F\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c92d1f8485a827154db277d2a4c22190}{%
+           family={Bonjean},
+           familyi={B\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c0f02a30ae1ef84cdeb41ad307edb630}{%
+           family={Angus},
+           familyi={A\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{943dbe6f4b513946e446399afe03e3de}
+      \strng{fullhash}{aaa6ebf4f13fcb0066f108b1bab5e7b4}
+      \strng{bibnamehash}{aaa6ebf4f13fcb0066f108b1bab5e7b4}
+      \strng{authorbibnamehash}{aaa6ebf4f13fcb0066f108b1bab5e7b4}
+      \strng{authornamehash}{943dbe6f4b513946e446399afe03e3de}
+      \strng{authorfullhash}{aaa6ebf4f13fcb0066f108b1bab5e7b4}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Origin of Cultivated Wheat. In the Wheat Book}
+      \field{month}{01}
+      \field{title}{The Origin of cultivated wheat}
+      \field{year}{2001}
+      \field{pages}{1\bibrangedash 56}
+      \range{pages}{56}
+    \endentry
+    \entry{feldman2007domestication}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3814ff03327a094a5ddd09b2826c9abc}{%
+           family={Feldman},
+           familyi={F\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod}}}%
+        {{hash=66c35ccb9a8be8fd5d81fa26dae2964a}{%
+           family={Kislev},
+           familyi={K\bibinitperiod},
+           given={Mordechai\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a154db9adcc3ce98f7b161f03c0febb8}
+      \strng{fullhash}{a154db9adcc3ce98f7b161f03c0febb8}
+      \strng{bibnamehash}{a154db9adcc3ce98f7b161f03c0febb8}
+      \strng{authorbibnamehash}{a154db9adcc3ce98f7b161f03c0febb8}
+      \strng{authornamehash}{a154db9adcc3ce98f7b161f03c0febb8}
+      \strng{authorfullhash}{a154db9adcc3ce98f7b161f03c0febb8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Israel Journal of Plant Sciences}
+      \field{title}{Domestication of emmer wheat and evolution of free-threshing tetraploid wheat}
+      \field{volume}{55}
+      \field{year}{2007}
+      \field{pages}{207\bibrangedash 221}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1560/IJPS.55.3-4.207
+      \endverb
+    \endentry
     \entry{felsenstein1981evolutionary}{article}{}
       \name{author}{1}{}{%
         {{hash=a9a7aeb8d3c34e3da316b87101984cda}{%
