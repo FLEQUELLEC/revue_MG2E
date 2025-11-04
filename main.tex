@@ -39,14 +39,14 @@
 % ============================
 \usepackage[hidelinks,unicode]{hyperref}
 \hypersetup{
-  colorlinks=true,
-  linkcolor=black,
-  urlcolor=blue,
-  citecolor=teal,
-  pdfauthor={Florent Le Quellec},
-  pdftitle={Revue MG2E – Admixture & Spéciation},
-  pdfsubject={Master BI/BEE – MG2E},
-  pdfkeywords={spéciation, admixture, hybridation, génomique, bioinformatique}
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=teal,
+    pdfauthor={Florent Le Quellec},
+    pdftitle={Revue MG2E – Admixture & Spéciation},
+    pdfsubject={Master BI/BEE – MG2E},
+    pdfkeywords={spéciation, admixture, hybridation, génomique, bioinformatique}
 }
 
 % ============================
@@ -54,22 +54,22 @@
 % ============================
 \usepackage{csquotes} % doit être avant biblatex
 \usepackage[
-  backend=biber,
-  style=authoryear,
-  citestyle=authoryear-comp,
-  sorting=nyt,
-  maxcitenames=2,
-  maxbibnames=99,
-  giveninits=true,
-  uniquename=false,
-  url=false,
-  doi=true,
-  eprint=false,
-  language=french
+    backend=biber,
+    style=authoryear,
+    citestyle=authoryear-comp,
+    sorting=nyt,
+    maxcitenames=2,
+    maxbibnames=99,
+    giveninits=true,
+    uniquename=false,
+    url=false,
+    doi=true,
+    eprint=false,
+    language=french
 ]{biblatex}
 
 \DefineBibliographyStrings{french}{
-  andothers = {et al.}
+    andothers = {et al.}
 }
 
 \addbibresource{references.bib}
@@ -83,16 +83,50 @@
 \setstretch{1.25}
 
 % ====== Informations de la page de titre ======
-\title{\textbf{Admixture et spéciation : perspectives génomiques sur le rôle du flux de gènes dans la diversification des espèces}}
-\author{Florent LE QUELLEC}
-\date{}
+% ==========================
+% PAGE DE TITRE PERSONNALISÉE
+% ==========================
 
-% Fixe les étiquettes manquantes pour le français
-\setlocalecaption{french}{abstract}{Résumé}
-\setlocalecaption{french}{contents}{Table des matières}
+\begin{titlepage}
+    \begin{center}
+        % ---- Ligne supérieure avec logos ----
+        \begin{minipage}{0.45\textwidth}
+            \begin{flushleft}
+                \includegraphics[width=4cm]{figures/logo_UT.png}
+            \end{flushleft}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \begin{flushright}
+                \includegraphics[width=4cm]{figures/logobgesansfond.png}
+            \end{flushright}
+        \end{minipage}
 
-\begin{document}
-\maketitle
+        \vspace{2.5cm}
+
+        % ---- Titre principal ----
+        {\Large \textbf{Université Toulouse III – Paul Sabatier}}\\[0.5em]
+        {\large Master BI/BEE – Mention Bioinformatique et Génomique Environnementale}\\[2cm]
+
+        {\Huge \textbf{Admixture et spéciation :}}\\[0.3em]
+        {\LARGE \textbf{Perspectives génomiques sur le rôle du flux de gènes dans la diversification des espèces}}\\[2cm]
+
+        % ---- Auteur ----
+        {\Large Florent \textsc{Le Quellec}}\\[1.5cm]
+
+        % ---- Encadrants ou UE ----
+        {\large Revue scientifique dans le cadre de l’UE \textit{Communication scientifique – MG2E}}\\[0.5em]
+        {\large Année universitaire 2025–2026}\\[2cm]
+
+        % ---- Licence CC ----
+        \includegraphics[width=2cm]{figures/cc-by-nc.png}\\[0.5em]
+        {\small Licence \textbf{Creative Commons BY–NC 4.0}}\\
+        \url{https://creativecommons.org/licenses/by-nc/4.0/}
+
+        \vfill
+    \end{center}
+\end{titlepage}
+
 
 \begin{abstract}
     % Résumé synthétique (10 lignes max) : présenter le thème, les enjeux, la problématique et la portée de la revue.
