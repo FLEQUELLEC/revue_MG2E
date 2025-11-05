@@ -131,7 +131,10 @@
 
 \begin{abstract}
     % Résumé synthétique (10 lignes max) : présenter le thème, les enjeux, la problématique et la portée de la revue.
+    La spéciation, processus clé de la diversification du vivant, repose sur l’établissement progressif de barrières reproductives entre populations. Cependant, les avancées récentes en génomique ont révélé que le flux de gènes (admixture) persiste souvent bien au-delà de la divergence initiale, rendant floue la frontière entre espèces. Cette revue examine comment l’admixture peut agir à la fois comme frein et moteur de la spéciation, selon les contextes écologiques et évolutifs. Après un rappel des modèles classiques et de leurs révisions contemporaines, nous présentons les apports méthodologiques des approches génomiques et bio-informatiques, qui permettent désormais de quantifier le flux de gènes avec une précision sans précédent (tests d’introgression, coalescence, inférences bayésiennes). L’étude de cas sur les canidés nord-américains illustre la complexité des histoires évolutives réticulées, où hybridation et divergence coexistent. En comparaison, les exemples humains et végétaux soulignent le caractère généralisé de ces processus. Enfin, les limites des approches actuelles (couverture inégale, biais d’échantillonnage, interprétation des signaux) appellent à une intégration accrue des données écologiques et des modèles évolutifs. L’admixture apparaît ainsi non comme une exception, mais comme une composante essentielle de la dynamique de spéciation.
 
+    \vspace{1em}
+    \noindent\textbf{Mots-clés :} spéciation, admixture, hybridation, flux de gènes, génomique, bioinformatique, introgression, continuum de spéciation
 \end{abstract}
 
 \tableofcontents
@@ -181,7 +184,7 @@ Ainsi, une distinction s’impose entre les différents modèles de spéciation 
 
 \begin{itemize}
     \item Spéciation allopatrique : elle repose sur un isolement géographique complet (séparation par une montagne, un rift, une mer, etc.), empêchant le flux de gènes entre les populations.
-    \item Spéciation parapatrique : elle se produit entre des populations partiellement isolées, vivant dans des milieux aux conditions écologiques différentes. La sélection naturelle et la dérive génétique favorisent alors leur divergence malgré un flux génétique limité.
+    \item Spéciation parapatrique : elle se produit entre des populations partiellement isolées, vivant dans des milieux aux conditions écologiques différentes. La sélection naturelle et la dérive génétique favorisent, la divergence malgré un flux génétique limité.
 \end{itemize}
 
 la notion de speciation se developpe encore, dans les années 60-80, les travaux sur la génomique avance, ce qui vient, modifier la vision des choses, on ne regarde non plus le phenotype, mais on y rajoute en plus le génotype dans la spéciation. Avec les travaux de J. Maynard Smith, un met en avant une nouvelle forme de spéciation:
@@ -195,7 +198,7 @@ L’analyse des séquences d’ADN permet désormais de reconstruire les relatio
 Des travaux récents portant sur l’hybridation ont conduit à repenser la définition classique de la spéciation, en la rendant moins dépendante de la notion d’isolement reproductif strict. L’article de \textcite{schumer2018natural} illustre cette évolution en montrant la complexité du concept d’espèce et du processus de spéciation. Pour ces auteurs, la spéciation est un processus évolutif continu, au sein duquel des barrières reproductives partielles coexistent avec des échanges de gènes entre lignées.
 L’isolement reproductif n’est donc pas absolu, et l’hybridation fait partie intégrante de l’histoire évolutive des espèces. Les auteurs concluent que l’hybridation ne contredit pas la spéciation ; au contraire, elle en révèle la nature dynamique et graduelle, dont les effets dépendent notamment du taux de recombinaison génétique au sein des génomes hybrides.
 
-La synthèse de \textcite{Penalbaetal2024_HybridizationReview}, redéfinissent la spéciation comme un processus évolutif continu plutôt que comme un événement ponctuel. Les auteurs montrent que l’hybridation et l’admixture ne contredisent pas la spéciation, mais en constituent au contraire une composante dynamique. Le flux de gènes entre lignées divergentes peut tantôt ralentir la différenciation, tantôt favoriser l’émergence de nouvelles combinaisons adaptatives et même de nouvelles espèces. Ainsi, la spéciation est aujourd’hui perçue comme un continuum génomique, modulé par la sélection naturelle, la recombinaison et la structure du flux de gènes, où l’isolement reproductif est rarement absolu.
+Dans la revue de \textcite{Penalbaetal2024_HybridizationReview}, propose de voir la spéciation comme un processus évolutif continu plutôt que comme un événement ponctuel. Les auteurs montrent que l’hybridation et l’admixture ne contredisent pas la spéciation, mais en constituent au contraire une composante dynamique. En effet, le flux de gènes entre lignées divergentes peut tantôt ralentir la différenciation, tantôt favoriser l’émergence de nouvelles combinaisons adaptatives et même de nouvelles espèces. La spéciation est aujourd’hui perçue comme un continuum génomique, modulé par la sélection naturelle, la recombinaison et la structure du flux de gènes, où l’isolement reproductif est rarement absolu.
 
 Ces avancées montrent que la spéciation n’est pas une rupture nette, mais un processus où la divergence évolutive peut coexister avec un certain flux de gènes.
 Dans cette optique, l’admixture émerge comme un mécanisme central, capable à la fois de freiner la différenciation et de stimuler l’innovation génétique.
@@ -231,10 +234,10 @@ Les progrès de la génomique et de la bio-informatique ont profondément renouv
 Les approches modernes ne se limitent plus à la comparaison de quelques marqueurs moléculaires, mais exploitent désormais des génomes complets pour estimer à la fois la divergence évolutive et le flux de gènes entre populations.
 Ces analyses permettent d’identifier les régions du génome impliquées dans l’isolement reproductif, de détecter les signatures d’introgression et de quantifier l’intensité du flux génétique au cours du temps \parencite{seehausen2014genomics}.
 
-L’un des outils les plus utilisés pour mesurer l’admixture est la statistique D, ou test ABBA–BABA, initialement développé pour détecter l’introgression entre humains modernes et Néandertaliens.
+L’un des tests les plus utilisés pour mesurer l’admixture est la statistique D, ou test ABBA–BABA, d'abord développé pour détecter l’introgression entre humains modernes et Néandertaliens.
 Ce test compare les fréquences d’allèles partagés entre quatre taxons pour inférer la présence d’un flux de gènes non explicable par la phylogénie seule.
-Une valeur significative de D indique une violation de la bifurcation stricte, et donc un événement d’admixture interspécifique \parencite{green2010neandertal, durand2011testing}.
-Des variantes récentes (f4-ratio, f-branch) permettent d’estimer la proportion d’ascendance introgressée dans les génomes.
+Une valeur significative du test D met en évidence une déviation par rapport à un modèle de bifurcation strict entre lignées, et donc un événement d’admixture interspécifique \parencite{green2010neandertal, durand2011testing}.
+Des méthodes dérivées, comme les tests f4-ratio ou f-branch, permettent d’estimer quelle part du génome d’une espèce provient d’une autre par introgression.
 
 D’autres approches, comme les modèles de coalescence ou les méthodes basées sur la probabilité des histoires démographiques, permettent d’estimer la chronologie et l’intensité du flux de gènes.
 Parmi elles, MSMC2 (\textit{Multiple Sequentially Markovian Coalescent}) reconstruit la variation du taux de coalescence au cours du temps à partir de génomes entiers, offrant une estimation fine du moment où les lignées ont cessé d’échanger des gènes \parencite{schiffels2014msmc}.
@@ -257,13 +260,13 @@ Elles permettent de dépasser les modèles conceptuels historiques en offrant un
 
 \subsection{Contexte et problématique}
 
-La phylogénie des canidés nord-américains, notamment celle des loups, coyotes et hybrides présumés, constitue un cas emblématique des difficultés à délimiter les espèces lorsque le flux de gènes persiste après la divergence.
-Depuis plusieurs décennies, la validité du statut spécifique du \textit{loup de l’Est} (\textit{Canis lycaon}) fait l’objet d’un débat intense : s’agit-il d’une espèce distincte, d’une sous-espèce du loup gris (\textit{C. lupus}) ou d’un hybride stable entre le loup gris et le coyote (\textit{C. latrans}) ?
-Cette question n’est pas qu’académique : elle conditionne les politiques de conservation, notamment au Canada et aux États-Unis, où le statut juridique des populations dépend de leur reconnaissance taxonomique.
+La phylogénie des canidés nord-américains, notamment celle des loups, coyotes et hybrides présumés, constitue un cas important des difficultés à délimiter les espèces lorsque le flux de gènes persiste après la divergence.
+Depuis plusieurs décennies, la validité du statut spécifique du loup de l’Est (\textit{Canis lycaon}) fait l’objet d’un débat intense : s’agit-il d’une espèce distincte, d’une sous-espèce du loup gris (\textit{C. lupus}) ou d’un hybride stable entre le loup gris et le coyote (\textit{C. latrans}) ?
+Cette question n’est pas qu’académique : elle influence les politiques de conservation, notamment au Canada et aux États-Unis, où le statut juridique des populations dépend de leur reconnaissance taxonomique.
 
 \subsection{Données et approches utilisées \parencite{vilaca-2023}}
 
-Pour tester les hypothèses concurrentes sur l’origine du loup de l’Est, \textcite{vilaca-2023} ont analysé des génomes entiers issus de plusieurs populations de loups, coyotes et hybrides.
+Pour tester les hypothèses sur l’origine du loup de l’Est, \textcite{vilaca-2023} ont analysé des génomes issus de plusieurs populations de loups, coyotes et hybrides.
 L’étude s’appuie sur des approches de coalescence et de simulation génomique permettant d’estimer à la fois les temps de divergence et les proportions d’admixture entre lignées.
 Les auteurs ont notamment mobilisé :
 \begin{itemize}
@@ -281,7 +284,7 @@ Ces résultats indiquent une mosaïque génomique complexe, où certaines régio
 
 \subsection{Portée des résultats}
 
-Cette étude remet en cause la vision dichotomique selon laquelle hybridation et spéciation seraient incompatibles.
+Cette étude remet en cause la double vision selon laquelle hybridation et spéciation seraient incompatibles.
 Elle illustre comment l’admixture peut contribuer à la diversification, en permettant l’introduction de variations adaptatives sans effacer les barrières d’isolement reproductif.
 Sur le plan méthodologique, elle démontre la puissance des approches génomiques intégrées (coalescence, tests d’introgression et inférences bayésiennes) pour démêler les histoires évolutives réticulées.
 Enfin, ce cas met en lumière les enjeux pratiques : dans les canidés, la distinction entre hybrides récents et lignées stabilisées a des conséquences directes sur la gestion de la biodiversité et la protection légale des populations.
