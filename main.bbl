@@ -346,6 +346,91 @@
       \verb 10.1126/science.1188021
       \endverb
     \endentry
+    \entry{han2014characterizing}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4a2aec1d7d7ed8ad7ca756e341e8c44b}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Eunjung},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d24dd4640e026c3bc8375fe8194f7a09}{%
+           family={Sinsheimer},
+           familyi={S\bibinitperiod},
+           given={Janet\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a7927a8824a0f712ecfe132cf49cb14c}{%
+           family={Novembre},
+           familyi={N\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{ce654c9e222480b03c2fc06b4c6d9e13}
+      \strng{fullhash}{117e9ed6517347e115958c58df7ac907}
+      \strng{bibnamehash}{117e9ed6517347e115958c58df7ac907}
+      \strng{authorbibnamehash}{117e9ed6517347e115958c58df7ac907}
+      \strng{authornamehash}{ce654c9e222480b03c2fc06b4c6d9e13}
+      \strng{authorfullhash}{117e9ed6517347e115958c58df7ac907}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{number}{3}
+      \field{title}{Characterizing bias in population genetic inferences from low-coverage sequencing data}
+      \field{volume}{31}
+      \field{year}{2014}
+      \field{pages}{723\bibrangedash 735}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1093/molbev/mst229
+      \endverb
+    \endentry
+    \entry{joly2009statistical}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d56ff8309d60d7d0a5572319d34e9f33}{%
+           family={Joly},
+           familyi={J\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ebef84f475934a9e135e33d0d439e208}{%
+           family={McLenachan},
+           familyi={M\bibinitperiod},
+           given={Patricia\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=de7a34310c12dcc12141322c904e3ffd}{%
+           family={Lockhart},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{cf4f76a94e513a49e2f6c450cf74c90e}
+      \strng{fullhash}{5212ebc38aafc42265cd3a6de396653a}
+      \strng{bibnamehash}{5212ebc38aafc42265cd3a6de396653a}
+      \strng{authorbibnamehash}{5212ebc38aafc42265cd3a6de396653a}
+      \strng{authornamehash}{cf4f76a94e513a49e2f6c450cf74c90e}
+      \strng{authorfullhash}{5212ebc38aafc42265cd3a6de396653a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Naturalist}
+      \field{number}{2}
+      \field{title}{A statistical approach for distinguishing hybridization and incomplete lineage sorting}
+      \field{volume}{174}
+      \field{year}{2009}
+      \field{pages}{E54\bibrangedash E70}
+      \range{pages}{-1}
+    \endentry
     \entry{kulmuni2020towards}{article}{}
       \name{author}{3}{}{%
         {{hash=ad0fd1c95e74d82a32ebf30295786d7b}{%
