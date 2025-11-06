@@ -122,11 +122,12 @@
         % ---- Licence CC ----
         \includegraphics[width=2cm]{figures/cc-by-nc.png}\\[0.5em]
         {\small Licence \textbf{Creative Commons BY–NC 4.0}}\\
-        \url{https://creativecommons.org/licenses/by-nc/4.0/}
+        \url{https://creativecommons.org/licenses/by-nc/4.0/}\\[1.5cm]
 
         \vfill
     \end{center}
 \end{titlepage}
+
 
 
 \begin{abstract}
@@ -211,7 +212,7 @@ Le flux de gènes se définit comme un échange d’allèles entre deux populati
 Il contribue à maintenir la cohésion génétique entre populations en empêchant leur divergence.
 
 L’admixture, quant à elle, désigne un flux de gènes entre des populations ou des espèces préalablement isolées.
-Ce phénomène se produit souvent dans des \textit{zones hybrides}, c’est-à-dire des régions où deux espèces génétiquement proches entrent en contact et peuvent s’hybrider.  %rajouter bibliographie
+Ce phénomène se produit souvent dans des \textit{zones hybrides}, c’est-à-dire des régions où deux espèces génétiquement proches entrent en contact et peuvent s’hybrider.
 Les hybrides issus de ces croisements sont le plus souvent stériles (incapables de transmettre leur génome) mais certains peuvent être viables et fertiles.
 Dans ce cas, ils participent au transfert de matériel génétique entre espèces, un processus appelé introgression.
 Lorsque les gènes introgressés confèrent un avantage sélectif, on parle alors d’introgression adaptative.
@@ -242,8 +243,8 @@ Au-delà de ces approches ponctuelles, les chercheurs s’appuient aujourd’hui
 Par exemple, la méthode MSMC2 (Multiple Sequentially Markovian Coalescent) permet de retracer, à partir de génomes complets, les variations du taux de coalescence dans le temps.
 Elle offre une estimation fine du moment où deux lignées ont cessé d’échanger des gènes, et a permis de révéler des épisodes anciens d’admixture, aussi bien chez les humains que chez d’autres vertébrés \parencite{schiffels2014msmc}.
 
-En parallèle, les approches bayésiennes et de simulation se sont imposées comme des outils clés pour tester différents scénarios de spéciation.
-La méthode dite Approximate Bayesian Computation (ABC) simule des jeux de données sous diverses hypothèses d’isolement ou de flux génétique, puis compare les résultats aux données observées pour identifier le scénario le plus plausible.
+Les approches bayésiennes et de modélisation se sont imposées comme des outils clés pour tester différents scénarios de spéciation.
+La méthode dite Approximate Bayesian Computation (ABC) vient simuler des jeux de données sous diverses hypothèses d’isolement ou de flux génétique, puis compare les résultats aux données observées pour identifier le scénario le plus plausible.
 L’intégration de l’apprentissage automatique, notamment sous la forme de forêts aléatoires dans le cadre de l’ABC-Random Forest (ABC-RF), a considérablement renforcé la robustesse et la précision de ces analyses \parencite{pudlo2016abc, raynal2019abc}.
 
 Enfin, l’association de ces outils avec des approches de cartographie génomique et de détection de sélection naturelle (telles que les statistiques $F_{ST}$, $d_{XY}$ ou les analyses de déséquilibre de liaison) offre une lecture plus fine des processus évolutifs.
@@ -276,10 +277,11 @@ Les auteurs ont notamment mobilisé :
 
 \subsection{Résultats principaux}
 
-Les analyses confirment que les trois lignées principales (\textit{C. lupus}, \textit{C. lycaon} et \textit{C. latrans}) ont divergé il y a environ 60 à 70 000 ans, mais que des événements d’admixture multiples ont eu lieu depuis cette séparation.
-En particulier, le loup de l’Est apparaît comme une lignée distincte, ayant connu des échanges génétiques anciens avec le coyote.
-Les tests de modèles évolutifs montrent qu’un scénario à trois espèces distinctes, mais connectées par des flux de gènes post-divergence, explique mieux les données qu’un modèle à deux espèces avec hybridation récente.
-Ces résultats indiquent une mosaïque génomique complexe, où certaines régions du génome reflètent la divergence ancienne, tandis que d’autres conservent des signatures d’introgression récente.
+Les analyses confirment que les trois lignées principales — le loup gris (\textit{Canis lupus}), le loup de l’Est (\textit{Canis lycaon}) et le coyote (\textit{Canis latrans}) — ont divergé il y a environ 60 à 70 000 ans.
+Depuis cette séparation, de multiples événements d’admixture ont eu lieu. Le loup de l’Est apparaît comme une lignée distincte, ayant divergé du loup gris tout en présentant des traces d’échanges génétiques anciens avec le coyote, survenus il y a environ 37 000 ans.
+Malgré ces hybridations répétées, les analyses génomiques montrent une différenciation du loup de l’Est, confirmant son statut d’espèce.
+Les coyotes de l’Est, résultent d’événements d’admixture plus récents entre coyotes de l’Ouest et loups de l’Est, survenus au cours de leur expansion vers le Canada et la côte atlantique.
+Ces résultats révèlent un assemblage génomique complexe, où certaines régions du génome conservent la trace d’une divergence ancienne, tandis que d’autres témoignent d’introgressions récentes entre lignées apparentées.
 
 \subsection{Portée des résultats}
 
@@ -298,7 +300,7 @@ Ces travaux, fondés sur le séquençage complet du génome néandertalien, ont 
 
 L’admixture a eu lieu après la sortie d’Afrique des populations de \textit{H. sapiens}, probablement au Proche-Orient ou en Europe, et a contribué à l’introduction de variants génétiques impliqués dans l’immunité, la kératinisation ou encore l’adaptation aux climats froids.
 
-Ce cas emblématique illustre que l’isolement reproductif entre espèces proches peut être perméable, même chez les hominidés, et que l’admixture peut façonner l’évolution adaptative plutôt que la contrecarrer.
+Ce cas emblématique de l'histoire humaine illustre que l’isolement reproductif entre espèces proches peut être perméable, même chez les hominidés.
 Il constitue également un jalon historique dans l’étude de la spéciation, puisque c’est grâce à ces analyses que des méthodes comme la \textit{D-statistic} (test ABBA–BABA) ont été développées pour détecter l’introgression génétique entre lignées divergentes \parencite{durand2011testing}.
 
 \subsection{Flux de gènes et diversification chez les plantes}
@@ -334,40 +336,42 @@ Les perspectives qui visent à dépasser les limites actuelles en intégrant de 
 L’étude de l’ADN ancien permet la possibilité d’observer directement les flux de gènes au cours du temps, en retraçant les événements d’admixture passés plutôt que de les inférer uniquement à partir des génomes contemporains \parencite{green2010neandertal, prufer2014complete}.
 Ces données temporelles, combinées aux modèles de coalescence, permettent d’estimer plus finement la durée et la direction des flux génétiques.
 
-Parallèlement, l’intégration de la dimension écologique et des modèles éco-évolutifs (qui relient environnement, sélection et démographie) constitue une voie prometteuse.
-Ces approches visent à comprendre comment les gradients écologiques, les pressions de sélection locales et la connectivité des habitats façonnent la mosaïque génomique de la spéciation.
-Enfin, les développements récents en modélisation bayésienne hiérarchique et en apprentissage profond (deep learning évolutif) laissent entrevoir une automatisation partielle de l’inférence démographique, tout en intégrant la complexité des paysages génétiques et environnementaux.
+L’intégration de la dimension écologique et des modèles éco-évolutifs (qui relient environnement, sélection et démographie) constitue une voie prometteuse.
+Ces approches visent à comprendre comment les gradients écologiques, les pressions de sélection locales et la connectivité des habitats façonnent la combinaison génomique.
+Enfin, les développements récents en modélisation bayésienne hiérarchique et en apprentissage profond (Deep learning) laissent entrevoir une automatisation partielle de l’inférence démographique, tout en intégrant la complexité des paysages génétiques et environnementaux.
 
-En somme, les approches génomiques ont profondément transformé notre compréhension de la spéciation et de l’admixture.
-Elles offrent une vision quantitative et dynamique des échanges génétiques, mais exigent une interprétation prudente et contextualisée.
-L’avenir de la discipline repose sur la combinaison de la génomique, de l’écologie et de la modélisation, pour appréhender la diversification du vivant comme un processus intégratif et multidimensionnel.
-% ==========================
+En résumé, les approches génomiques ont profondément transformé notre compréhension de la spéciation et de l’admixture.
+Elles offrent une approche quantitative et dynamique des échanges génétiques, mais exigent une interprétation prudente et contextualisée.
+Le futur de la discipline repose sur la combinaison de la génomique, de l’écologie et de la modélisation, pour appréhender la diversification du vivant comme un processus intégratif et multidimensionnel.
 
 \section{Synthèse et perspectives}
 % Discussion générale : ce qu’on retient, les grandes tendances, les questions ouvertes.
 L’ensemble des travaux examinés montre que la notion de spéciation a profondément évolué depuis son émergence au début du XXᵉ siècle, passant d’une conception strictement cladistique à une vision plus dynamique et continue, dans laquelle le flux de gènes joue un rôle central.
 Là où l’isolement reproductif était autrefois considéré comme absolu, les approches génomiques ont révélé que le transfert de gènes entre lignées divergentes est fréquent. Ce flux peut freiner la différenciation, mais il peut aussi contribuer à la diversification du vivant.
 Les exemples issus des canidés nord-américains, de l’espèce humaine et des plantes illustrent la généralité de ces processus à travers les règnes.
-Ces avancées ont été rendues possibles par le développement de la bioinformatique et de la génomique, qui ont fourni des tests robustes pour détecter et quantifier l’admixture, tels que les D-statistiques et le test ABBA-BABA.
+Ces avancées ont été rendues possibles par le développement de la bioinformatique et de la génomique, qui ont fourni des tests robustes pour détecter et quantifier l’admixture, tels que les D-statistiques (test ABBA-BABA).
 Cependant, ces approches restent soumises à plusieurs biais, notamment liés à la qualité et à la représentativité des échantillons, parfois difficiles à obtenir. Cela peut conduire à une sous-estimation de la diversité génétique et à des artefacts de couverture affectant les résultats des tests. L’admixture elle-même peut complexifier l’interprétation des scénarios évolutifs.
 Malgré ces limites, les perspectives futures demeurent prometteuses : le perfectionnement des modèles, notamment par l'intégration des facteurs environnementaux, et le recours à l'intelligence artificielle ouvrent de nouvelles voies pour la modélisation et la compréhension des processus évolutifs.
 En somme, l’étude de l’admixture renouvelle notre compréhension de la spéciation, en montrant qu’elle est moins un événement discret qu’un continuum façonné par les flux génétiques à différentes échelles temporelles et taxonomiques.
 
-% ==========================
-\printbibliography
 
-\section*{Licence / License}
+\printbibliography
+\newpage
+
+\begin{minipage}{0.85\textwidth}
+    \small
+    \itshape
+    L'intelligence artificielle a été utilisée pour la révision linguistique, la correction orthographique et la mise en forme du texte(LaTex).
+    Cette aide s’est limitée à l’amélioration de la clarté et de la syntaxe; le contenu scientifique, les analyses et les interprétations présentées dans ce document est entièrement le travail de l’auteur.
+\end{minipage}
+
+\section*{Licence}
 \begin{center}
     \includegraphics[width=2.5cm]{figures/cc-by-nc.png}\\[0.5em]
     \textbf{Ce document est distribué sous licence\\
         Creative Commons Attribution–NonCommercial 4.0 International (CC BY–NC 4.0).}\\[0.5em]
     Vous êtes libre de le partager et de l’adapter à condition d’en attribuer la paternité\\
     et de ne pas en faire un usage commercial.\\[0.3em]
-    \url{https://creativecommons.org/licenses/by-nc/4.0/}\\[1em]
-    \textbf{This document is distributed under the\\
-        Creative Commons Attribution–NonCommercial 4.0 International License (CC BY–NC 4.0).}\\[0.5em]
-    You are free to share and adapt the material, provided that appropriate credit is given\\
-    and it is not used for commercial purposes.\\[0.3em]
     \url{https://creativecommons.org/licenses/by-nc/4.0/}
 \end{center}
 
