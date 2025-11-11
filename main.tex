@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 
 % ============================
 % ENCODAGE & LANGUE
@@ -21,6 +21,8 @@
 \usepackage{enumitem}
 \usepackage[left,modulo]{lineno}
 \setlist{noitemsep}
+\usepackage{multicol}
+\usepackage{etoolbox}
 
 % ============================
 % MATH, COULEURS, SYMBOLES
@@ -34,6 +36,7 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \captionsetup{labelfont=bf}
+\usepackage{float}
 
 % ============================
 % LIENS HYPERTEXTES
@@ -74,7 +77,16 @@
 }
 
 \addbibresource{references.bib}
+% Style compact pour la bibliographie
+\renewcommand*{\bibfont}{\footnotesize} % police réduite
+\setlength{\bibitemsep}{0.25em}         % espace entre entrées
 
+% Ajout d'une puce avant chaque entrée
+\makeatletter
+\renewbibmacro*{begentry}{
+  \par\smallskip\noindent\textbullet\space
+}
+\makeatother
 
 % ============================
 % DIVERS / AJUSTEMENTS
@@ -191,15 +203,27 @@ Mayr introduit également le concept de spéciation allopatrique, selon lequel l
 Ainsi, une distinction s’impose entre les différents modèles de spéciation :
 
 \begin{itemize}
-    \item Spéciation allopatrique : elle repose sur un isolement géographique complet (séparation par une montagne, un rift, une mer, etc.), empêchant le flux de gènes entre les populations.
-    \item Spéciation parapatrique : elle se produit entre des populations partiellement isolées, vivant dans des milieux aux conditions écologiques différentes. La sélection naturelle et la dérive génétique favorisent, la divergence malgré un flux génétique limité.
+    \item Spéciation allopatrique : elle repose sur un isolement géographique complet (séparation par une montagne, un rift, une mer, etc.), empêchant le flux de gènes entre les populations. (figure \ref{fig:speciation_models})
+    \item Spéciation parapatrique : elle se produit entre des populations partiellement isolées, vivant dans des milieux aux conditions écologiques différentes. La sélection naturelle et la dérive génétique favorisent, la divergence malgré un flux génétique limité. (figure \ref{fig:speciation_models})
 \end{itemize}
 
 La notion de spéciation continue d’évoluer. Entre les années 1960 et 1980, les progrès de la génétique et de la génomique ont profondément modifié la compréhension du processus : l’analyse ne se limite plus au phénotype, mais intègre désormais le génotype. Les travaux de J. Maynard Smith ont notamment mis en avant une nouvelle forme de spéciation :
 \begin{itemize}
-    \item La spéciation sympatrique : sous certaines conditions, la spéciation sympatrique peut survenir grâce à la sélection disruptive et à l’apparition d’isolements reproductifs au sein d’une même population, dans un espace géographique partagé, par l’intermédiaire de polymorphismes génétiques et comportementaux \parencite{maynardsmith1966sympatric}.
+    \item La spéciation sympatrique : sous certaines conditions, la spéciation sympatrique peut survenir grâce à la sélection disruptive et à l’apparition d’isolements reproductifs au sein d’une même population, dans un espace géographique partagé, par l’intermédiaire de polymorphismes génétiques et comportementaux (figure \ref{fig:speciation_models}) \parencite{maynardsmith1966sympatric}.
 \end{itemize}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.5]{figures/speciation_allopatrie.png}
+    \caption[Modèles de spéciation et flux de gènes]{
+        \textbf{Continuum de la spéciation :} représentation schématique des principaux modèles de spéciation en fonction du degré d’isolement reproductif et du flux de gènes.
+        (Gauche) \textit{Spéciation allopatrique} : isolement géographique complet (barrière physique) empêchant tout flux de gènes.
+        (Centre) \textit{Spéciation parapatrique} : isolement partiel entre populations adjacentes, où le flux de gènes est limité mais non nul (barrière semi-perméable).
+        (Droite) \textit{Spéciation sympatrique} : divergence au sein d’un même espace géographique, avec hybridation et flux de gènes résiduels (individus violets).
+        La flèche verticale représente la progression temporelle de la divergence génétique et la transition d’un isolement géographique vers un isolement reproductif intrinsèque.
+    }
+    \label{fig:speciation_models}
+\end{figure}
 
 Parallèlement, le développement de la phylogénétique moléculaire a profondément transformé l’étude de l’évolution.
 L’analyse des séquences d’ADN permet désormais de reconstruire les relations évolutives entre espèces de façon quantitative. Les travaux pionniers de Joseph Felsenstein \parencite{felsenstein1981evolutionary} ont introduit des approches informatiques et statistiques fondées sur la vraisemblance, ouvrant la voie à une compréhension génomique de la divergence et de la spéciation.
@@ -290,20 +314,14 @@ Malgré ces hybridations répétées, les analyses génomiques montrent une diff
 Les coyotes de l’Est, résultent d’événements d’admixture plus récents entre coyotes de l’Ouest et loups de l’Est, survenus au cours de leur expansion vers le Canada et la côte atlantique.
 Ces résultats révèlent un assemblage génomique complexe, où certaines régions du génome conservent la trace d’une divergence ancienne, tandis que d’autres témoignent d’introgressions récentes entre lignées apparentées.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{figures/Canis_latrans.png}
+    \includegraphics[scale = 0.5]{figures/Canis_latrans.png}
     \caption[Histoire évolutive des canidés nord-américains]{
         \textbf{Histoire évolutive et flux de gènes entre lignées de canidés nord-américains.}
         Schéma synthétique adapté de \textcite{vilaca-2023} illustrant la chronologie des événements d’admixture entre
         le loup gris (\textit{Canis lupus}), le loup de l’Est (\textit{Canis lycaon}) et le coyote (\textit{C. latrans}).
-        Les flèches représentent les principaux épisodes d’échanges génétiques :
-        (i) divergence du loup de l’Est à partir du loup gris il y a environ 67 000 ans ;
-        (ii) admixture ancienne avec le coyote vers 37 000 ans ;
-        (iii) hybridation secondaire entre le loup de l’Est et le loup gris à l’origine du loup des Grands Lacs (~8 000 ans) ;
-        (iv) admixture récente entre le loup de l’Est et les coyotes occidentaux ayant conduit à la formation des coyotes de l’Est.
-        Ce diagramme illustre la nature réticulée des lignées du genre \textit{Canis} en Amérique du Nord et met en évidence la coexistence
-        d’événements d’hybridation et de divergence au cours de la spéciation.}
+        Les flèches représentent les principaux épisodes d’échanges génétiques avec leurs dates.}
     \label{fig:canides_admixture}
 \end{figure}
 
@@ -379,26 +397,10 @@ Malgré ces limites, les perspectives futures demeurent prometteuses : le perfec
 En somme, l’étude de l’admixture renouvelle notre compréhension de la spéciation, en montrant qu’elle est moins un événement discret qu’un continuum façonné par les flux génétiques à différentes échelles temporelles et taxonomiques.
 
 
-\newpage
 \nolinenumbers
-\pagenumbering{gobble}
-\printbibliography
-\newpage
-
-\begin{center}
-    \begin{minipage}{0.85\textwidth}
-        \small
-        \itshape
-        L'intelligence artificielle a été utilisée pour la révision linguistique, la correction orthographique et la mise en forme du texte(LaTex).
-    \end{minipage}\\[2cm]
-
-    \includegraphics[width=2.5cm]{figures/cc-by-nc.png}\\[0.5em]
-    \textbf{Ce document est distribué sous licence\\
-        Creative Commons Attribution–NonCommercial 4.0 International (CC BY–NC 4.0).}\\[0.5em]
-    Vous êtes libre de le partager et de l’adapter à condition d’en attribuer la paternité\\
-    et de ne pas en faire un usage commercial.\\[0.3em]
-    \url{https://creativecommons.org/licenses/by-nc/4.0/}
-\end{center}
+\begin{multicols}{2}
+    \printbibliography
+\end{multicols}
 
 
 \end{document}
