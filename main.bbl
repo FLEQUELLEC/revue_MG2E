@@ -475,6 +475,57 @@
       \verb 10.1098/rstb.2019.0528
       \endverb
     \endentry
+    \entry{lecorre2020adaptive}{article}{}
+      \name{author}{5}{}{%
+        {{hash=5a8812e5c38f55716dbee1a1012dfd31}{%
+           family={Le\bibnamedelima Corre},
+           familyi={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a4003e77711d87c90f36d34a6f3b6403}{%
+           family={Siol},
+           familyi={S\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=45a59f0c4432ab44cc8ee33bf8797409}{%
+           family={Vigouroux},
+           familyi={V\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a0e7edbf381ed0b33e758d42c1345f83}{%
+           family={Tenaillon},
+           familyi={T\bibinitperiod},
+           given={Maud\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=ee9fbbe515496b4ea1e40a1a4a17d669}{%
+           family={Délye},
+           familyi={D\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f63147641aadbbaaad008c04ab01b268}
+      \strng{fullhash}{4aaa74246e44271871231e45790ac110}
+      \strng{bibnamehash}{4aaa74246e44271871231e45790ac110}
+      \strng{authorbibnamehash}{4aaa74246e44271871231e45790ac110}
+      \strng{authornamehash}{f63147641aadbbaaad008c04ab01b268}
+      \strng{authorfullhash}{4aaa74246e44271871231e45790ac110}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{number}{41}
+      \field{title}{Adaptive introgression from maize has facilitated the establishment of teosinte as a noxious weed in Europe}
+      \field{volume}{117}
+      \field{year}{2020}
+      \field{pages}{25618\bibrangedash 25627}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1073/pnas.2006633117
+      \endverb
+    \endentry
     \entry{maynardsmith1966sympatric}{book}{}
       \name{author}{1}{}{%
         {{hash=b197e8a08a812eadf773a3eb509b4616}{%
@@ -532,6 +583,34 @@
       \field{labeltitlesource}{title}
       \field{title}{Systematics and the Origin of Species}
       \field{year}{1942}
+    \endentry
+    \entry{mnhn2024mais}{online}{}
+      \name{author}{1}{}{%
+        {{hash=30fc50cd70ff65cf3fcf2da8e7e354a3}{%
+           family={{Muséum national d’Histoire naturelle}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{30fc50cd70ff65cf3fcf2da8e7e354a3}
+      \strng{fullhash}{30fc50cd70ff65cf3fcf2da8e7e354a3}
+      \strng{bibnamehash}{30fc50cd70ff65cf3fcf2da8e7e354a3}
+      \strng{authorbibnamehash}{30fc50cd70ff65cf3fcf2da8e7e354a3}
+      \strng{authornamehash}{30fc50cd70ff65cf3fcf2da8e7e354a3}
+      \strng{authorfullhash}{30fc50cd70ff65cf3fcf2da8e7e354a3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Consulté le 12 novembre 2025}
+      \field{title}{Histoire de la domestication et de la diversification du maïs}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.mnhn.fr/fr/histoire-de-la-domestication-et-de-la-diversification-du-mais
+      \endverb
+      \verb{url}
+      \verb https://www.mnhn.fr/fr/histoire-de-la-domestication-et-de-la-diversification-du-mais
+      \endverb
     \endentry
     \entry{souris-orth-2002}{article}{}
       \name{author}{6}{}{%
